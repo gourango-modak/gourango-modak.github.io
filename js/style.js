@@ -9,7 +9,7 @@ $(document).ready(function(){
         var winHeight = $(window).height();
         var winWidth = $(window).width();
         if(winWidth < 495) {
-            $(".skill_cir").css("width", "100px");
+            $(".skill_cir").css("width", "80px");
             $(".skill_text").css("font-size", "12px");
             $('.dial').trigger(
                 'configure',
