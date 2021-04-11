@@ -6,39 +6,131 @@
     font-family: Montserrat;
     scroll-behavior: smooth;
     scroll-margin-top: 70px;
+    font-size: 16px;
+    color: #444452;
 }
 
 .whole_section {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #007BFF;
+    font-size: 1rem;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+/* Home Section */
+
+.header_title {
+    font-family: Tangerine;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.header_title_text {
+    font-size: 2rem;
+}
+
+.header_title_name {
+    font-size: 2rem;
+}
+
+.hand_pointer_size {
+    margin: 0.8rem 1rem;
+    font-size: 2em !important;
+}
+
+.getintouch_title {
+    font-size: 1.2rem;
+}
+
+.getintouch_email {
+    border-bottom: 3px solid #007BFF;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #444452;
+}
+
+.getintouch_email:hover {
+    text-decoration: none;
+    color: #444452;
 }
 
 
-
-.nav_bar {
-    /* height: 70px; */
+#getintouch {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    
 }
 
+#contact_info {
+    margin-top: 2rem;
+}
+
+.contact_info_sep_icons {
+    margin: 0px 1rem;
+    font-size: 2rem;
+}
+
+.contact_info_fad {
+    font-size: 2rem;
+}
+
+.contact_info_fad:hover {
+    font-size: 2.2rem;
+}
+
+
+/* About Section */
+
+.headtitle {
+    width: 30%;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #007BFF;
+}
+
+.about_text {
+    font-size: 1rem;
+}
+
+/* Education Section */
+
+.education_details_logo {
+    font-size: 1rem;
+}
+
+/* Project Section */
+
+.project_title_text {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.cat_vs_dog_live {
+    font-size: 1rem;
+}
 
 #header_intro {
-    font-size: 32px;
-    /* border: 2px solid black; */
-    width: 75%;
-}
-
-.getintouch_text {
-    font-size: 22px;
+    width: 70%;
 }
 
 
 #head {
-    height: -webkit-calc(100vh - 70px);
+    height: -webkit-calc(100vh - 55px);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
-    margin-bottom: 150px;
-    /* border: 2px solid black; */
 }
 
 #about {
@@ -64,47 +156,22 @@
 
 
 #skills {
-    /* height: -webkit-calc(100vh - 70px); */
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* align-items: center; */
-    /* margin-top: 200px; */
     padding: 20px;
     margin-bottom: 200px;
 }
 
 
 .skill_text {
-    font-size: 16px;
-    font-weight: bold;
-    color: #3e99face;
-    /* border-bottom: 2px solid #3e99face; */
+    font-weight: bolder;
 }
 
 .skill_cir {
     margin-right: 30px;
     margin-bottom: 40px;
 }
-
-/* .bar {
-    background-color: rgba(214, 226, 236, 0.3);
-    display: block;
-    height: 20px;
-    /* border: 1px solid rgb(0, 0, 0, 0.3); */
-    /* border-radius: 10px; */
-    /* overflow: hidden; */
-    /* box-shadow: 0 0 9px rgb(0, 0, 0, 0.3); */
-/* }  */
-
-/* .bar span {
-    height: 20px;
-    float: left;
-    border-radius: 10px;
-    background-color: #3e99face;
-} */
-
 
 
 
@@ -146,60 +213,27 @@
 
 
 #accomplishments {
-    /* height: -webkit-calc(100vh - 70px); */
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* align-items: center; */
     padding: 20px;
     margin-bottom: 200px;
 }
 
 
-
-
 #projects {
-    /* height: -webkit-calc(100vh - 70px); */
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* align-items: center; */
     padding: 20px;
 }
 
 
 
-
-#footer {
-    /* height: -webkit-calc(100vh - 70px); */
-    /* border: 1px solid red; */
-    display: flex;
-    /* flex-direction: column; */
-    /* justify-content: end; */
-    align-items: center;
-    height: 100px;
-    padding: 10px;
-    
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-
-.headtitle {
-    width: 30%;
-    font-size: 20px;
-    /* border: 1px solid black; */
-    text-align: center;
-}
-
 .details {
     width: 70%;
-    /* border: 1px solid black; */
     padding-left: 20px;
 }
-
 
 .profile_image {
     margin-bottom: 60px;
@@ -218,43 +252,128 @@
 }
 
 .footer {
-    /* height: -webkit-calc(100vh - 70px); */
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
-    /* justify-content: end; */
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    padding: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.footer_des_text {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 
 
-@media (max-width: 576px) {
+@media (max-width: 583px) {
 
     * {
         scroll-margin-top: 350px;
     }
 
     .whole_section {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 2rem;
+        padding-right: 1rem;
     }
+
+    /* Header Section */
+
+    .header_title {
+        font-family: Tangerine;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .header_title_text {
+        font-size: 1.2rem;
+    }
+    
+    .header_title_name {
+        font-size: 1.3rem;
+    }
+
+    .getintouch_title {
+        font-size: 1rem;
+    }
+
+    .getintouch_email {
+        border-bottom: 3px solid #007BFF;
+        font-size: 1rem;
+        text-shadow: 0.5rem 0.5rem 1rem #E5E5E5;
+        text-decoration: none;
+        color: #444452;
+    }
+    
+    .getintouch_email:hover {
+        text-decoration: none;
+        color: #444452;
+    }
+
+    #getintouch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    #contact_info {
+        margin-top: 2rem;
+    }
+
+    .hand_pointer_size {
+        margin: 0px;
+        font-size: 1em !important;
+    }
+
+    #contact_info {
+        text-align: center;
+    }
+
+    .contact_info_sep_icons {
+        margin: 0px 0.6rem;
+        font-size: 1.5rem;
+    }
+
+    .contact_info_fad {
+        font-size: 1.5rem;
+    }
+
+    /* About Section */
+
+    .about_text {
+        font-size: 0.9rem;
+    }
+
+    /* Education Section */
+
+    .education_details_logo {
+        font-size: 0.7rem;
+    }
+
+    .education_details_title {
+        font-size: 0.8rem;
+    }
+
+    /* Project Section */
+
+    .project_title_text {
+        font-size: 1.2rem;
+    }
+
+    .cat_vs_dog_live {
+        font-size: 0.9rem;
+    }
+
 
     #header_intro {
-        font-size: 20px;
         width: 100%;
-    }
-
-    .getintouch_text {
-        font-size: 16px;
     }
 
     .headtitle {
         margin-bottom: 70px;
         width: 100%;
-        /* border: 1px solid black; */
         text-align: left;
     }
 
@@ -266,93 +385,66 @@
 
     .details {
         width: 90%;
-        /* border: 1px solid black; */
         margin-left: 10%;
     }
-
     
     #about {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
         padding: 10px;
     }
 
     #education {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
         padding: 10px;
     }
     
-    
     #skills {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
-        /* margin-top: 200px; */
         padding: 10px;
     }
 
     #accomplishments {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
         padding: 10px;
     }
-    
-    
     
     
     #projects {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
         padding: 10px;
     }
 
-    .project_tile_text {
-        font-size: 20px;
-        font-weight: bold;
-    }
+    /* Footer Section */
 
     .footerContent {
         display: block;
     }
 
     .footer {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: end; */
-        justify-content: space-around;
-        align-items: center;
+        justify-content: center;
         height: 150px;
-        padding: 10px;
-
+        margin-bottom: 0.5rem;
     }
+
+
     .footer_text {
-        font-size: 14px;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
+
+    .footer_des_text {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
     .footerBy {
         align-self: center;
     }
@@ -362,34 +454,57 @@
     .footerBy {
         align-self: center;
     }
+    .build_year {
+        align-self: center;
+    }
 }
 
 
 @media (min-width: 577px) and (max-width: 980px) {
+    
     * {
         scroll-margin-top: 350px;
     }
 
     .whole_section {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 2rem;
+        padding-right: 1rem;
     }
 
     #header_intro {
-        font-size: 20px;
         width: 100%;
     }
 
-    .getintouch_text {
-        font-size: 16px;
+    .header_title {
+        font-family: Tangerine;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    .header_title_text {
+        font-size: 1.4rem;
+    }
+    
+    .header_title_name {
+        font-size: 1.4rem;
+    }
+    
+    .getintouch_title {
+        font-size: 1.1rem;
+    }
+    
+    .getintouch_email {
+        border-bottom: 3px solid #007BFF;
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #444452;
     }
 
-    .headtitle {
-        margin-bottom: 70px;
-        width: 100%;
-        /* border: 1px solid black; */
-        text-align: left;
+    #getintouch {
+        align-items: center;
+        
     }
+    
 
     .profile_img {
         width: 200px;
@@ -399,68 +514,46 @@
 
     .details {
         width: 90%;
-        /* border: 1px solid black; */
         margin-left: 10%;
     }
 
-    
+    .headtitle {
+        margin-bottom: 5rem;
+        text-align: left;
+    }
+
     #about {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
         padding: 10px;
     }
 
     #education {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
         padding: 10px;
     }
     
-    
     #skills {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
-        /* margin-top: 200px; */
         padding: 10px;
     }
 
     #accomplishments {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
         padding: 10px;
     }
     
     
-    
-    
     #projects {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: center; */
         padding: 10px;
     }
 
     .project_tile_text {
-        font-size: 20px;
         font-weight: bold;
     }
 
@@ -469,19 +562,14 @@
     }
 
     .footer {
-        /* height: -webkit-calc(100vh - 70px); */
-        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: end; */
-        justify-content: space-around;
-        align-items: center;
-        height: 150px;
-        padding: 10px;
-
+        justify-content: center;
+        margin-bottom: 0.5rem;
     }
     .footer_text {
-        font-size: 14px;
+        font-size: 0.5rem;
+        font-weight: bold;
     }
 }
 
